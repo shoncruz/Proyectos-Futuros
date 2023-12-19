@@ -1,0 +1,4 @@
+en la Carpeta BD esta la Base de Datos que se utiliza
+ Esa BD en SQL importarla a su propio Xampp y luego disfrutar
+
+y con esta carpeta descargar y ubicarla dentro de la carpeta HTDOCS de la misma
