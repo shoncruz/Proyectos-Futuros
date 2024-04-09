@@ -1,0 +1,166 @@
+CODIGO HTML
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos Input HTML</title>
+    <link rel="stylesheet" href="color.css">
+</head>
+<body>
+    <h1>Tipos de Elementos Input HTML</h1>
+   
+    
+    <div class="nombre">Esquivel Juancruz</div>
+
+    
+    <h2>Tipos de Elementos Input HTML</h2>
+
+    <div class="container">
+        <div class="input-container">
+            <h3>Input type="text"</h3>
+            <input type="text">
+            <p>Este input permite ingresar texto.</p>
+        </div>
+
+        <div class="input-container">
+            <h3>Input type="password"</h3>
+            <input type="password">
+            <p>Este input oculta el texto ingresado.</p>
+        </div>
+
+        <div class="input-container">
+            <h3>Input type="number"</h3>
+            <input type="number">
+            <p>Este input permite ingresar números.</p>
+        </div>
+
+        <div class="input-container">
+            <h3>Input type="checkbox"</h3>
+            <input type="checkbox">
+            <p>Este input permite seleccionar una opción.</p>
+        </div>
+
+        <div class="input-container">
+            <h3>Input type="radio"</h3>
+            <input type="radio">
+            <p>Este input permite seleccionar una opción de un conjunto.</p>
+        </div>
+
+        <div class="input-container">
+            <h3>Input type="submit"</h3>
+            <input type="submit" value="Enviar">
+            <p>Este input se utiliza para enviar un formulario.</p>
+        </div>
+    </div>
+</body>
+</html>
+
+
+-------------------------------------------------------------------------------------------------------------------------
+
+
+CODIGO CSS
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0a0a0a;
+    color: #07f03a;
+    margin: 0;
+    padding: 0;
+}
+ 
+ .nombre {
+    background-color: rgb(3, 3, 3); 
+    padding: 0px;
+    
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.alumno-form {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    width: 70%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.input-container {
+    margin: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"],
+input[type="submit"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    font-size: 14px;
+}
+
+input[type="submit"] {
+    background-color: #020202;
+    color: #0ce204;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-container h3 {
+    margin-bottom: 5px;
+}
+
+.input-container p {
+    text-align: center;
+    margin: 0;
+    font-size: 14px;
+}
